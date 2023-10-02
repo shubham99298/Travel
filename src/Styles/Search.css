@@ -1,0 +1,43 @@
+.search{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+   margin-bottom: 20px;
+}
+.box{
+    padding: 10px;
+   margin-left: 10px;
+}
+.box  input{
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.searchin{
+    display: flex; 
+   
+}
+.searchin button{
+  border: none;
+}
+.searchin input {
+    padding: 5px;
+    border-radius: 5px;
+   
+  
+}
+@media (max-width: 600px) {
+
+    .search{
+        min-width:100%;
+       margin-left: -5px;
+    }
+    
+    
+    
+  }

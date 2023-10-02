@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "London, UK",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/417px-London_Skyline_%28125508655%29.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 1.",
+      "price": "$5,999"
+    },
+    {
+      "id": 2,
+      "title": "Sydney ,Australia",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg/405px-Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 2.",
+      "price": "$4,999"
+    },
+    {
+      "id": 3,
+      "title": "France",
+      "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS39uoI26pArkuxoNQYBAv2uWM0lQKjFfQQjQ&usqp=CAU",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$4,999"
+    },
+    {
+      "id": 4,
+      "title": "San Fransisco",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/San_Francisco_from_the_Marin_Headlands_in_August_2022.jpg/435px-San_Francisco_from_the_Marin_Headlands_in_August_2022.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$8,999"
+    },
+    {
+      "id": 5,
+      "title": "Adelaide",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Adelaide_skyline%2C_December_2022.jpg/405px-Adelaide_skyline%2C_December_2022.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$2,699"
+    }, {
+      "id": 6,
+      "title": "Tokyo",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/432px-Skyscrapers_of_Shinjuku_2009_January.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$7,999"
+    }, {
+      "id": 7,
+      "title": "Rio de janerio",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/432px-Cidade_Maravilhosa.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$3,999"
+    },
+    {
+      "id": 8,
+      "title": "Perth",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Perth_CBD_skyline_from_State_War_Memorial_Lookout%2C_2023%2C_04.jpg/1200px-Perth_CBD_skyline_from_State_War_Memorial_Lookout%2C_2023%2C_04.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$6,999"
+    }
+   
+  ]
+  
