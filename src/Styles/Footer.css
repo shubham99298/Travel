@@ -1,0 +1,29 @@
+.footer {
+    max-width: 100%;
+    background-color: black;
+    text-align: center;
+      
+  }
+  b{
+    font-size: 20px;
+  }
+   
+  .footer,
+  .footer a {
+    color:white;
+    font-size: 1rem;
+    text-decoration: none;
+
+  } 
+   hr{
+    height: 20px;
+  
+   }
+   
+  .footer li {
+    line-height: 1.9;
+    list-style: none;
+   
+    
+  }
+ 
