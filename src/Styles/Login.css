@@ -1,0 +1,40 @@
+.login .signupform{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+.login{
+    border: 1px solid rgb(5, 4, 4);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+.login:hover{
+   background-color:  #faf3ee;
+}
+.login .signupform input{
+   
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.signupform .button1{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.signupform .button2{
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+.login{
+  
+  text-align: center;
+}

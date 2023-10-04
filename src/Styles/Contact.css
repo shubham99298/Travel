@@ -1,0 +1,22 @@
+
+.imgcontact{
+    
+    width:100px;
+     height:100px;
+     margin-top:20px ;
+     border-radius:100px; 
+   
+      animation:imgUp 0.5s linear infinite alternate;
+}
+.contact{
+    text-align: center;
+}
+.contact p{
+   margin-left: 20%;
+   margin-right: 20%;
+}
+@keyframes imgUp{
+    to{
+        transform: translateY(10px);
+    }
+}
