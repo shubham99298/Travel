@@ -9,13 +9,15 @@ import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Contact from "./Components/Contact";
 
-// import { useState, useEffect } from 'react';
 import Login from './Components/Login';
+
 
 function App() {
   return (
     <Router>
       <NavBar />
+    
+
 
       <Routes>
         <Route path="/" element={<CarOusel />} />
@@ -26,7 +28,8 @@ function App() {
         <Route path="/login" element={<Login />} />
 
       </Routes>
-        
+     
+
      
       <Footer />
     </Router>

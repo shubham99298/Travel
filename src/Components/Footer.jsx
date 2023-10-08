@@ -26,6 +26,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        
       </footer>
     </div>
   );

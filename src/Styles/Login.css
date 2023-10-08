@@ -4,21 +4,25 @@
     width: 30%;
     text-align: center;
     margin-left: 35%;
+    
 }
 .login{
-    border: 1px solid rgb(5, 4, 4);
-    border-radius: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 20px;
+    border: 1px solid rgb(173, 164, 164);
+    /* border-radius: 10px; */
+    margin-left:  10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    /* padding: 50px; */
+    padding-bottom: 10%;
+   
 }
 .login:hover{
-   background-color:  #faf3ee;
+   background-color:  #dddddd;
 }
 .login .signupform input{
    
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 .signupform .button1{
@@ -26,6 +30,7 @@
     background-color: blue;
     border-radius: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .signupform .button2{
     color: white;

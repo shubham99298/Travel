@@ -23,7 +23,7 @@ const ImgCards = () => {
     const filtered = products.filter(
       (product) =>
         product.title.toLowerCase().includes(searchQuery.toLowerCase())
-      //example : france.includes(frances);
+      //yaha pe : france.includes(frances);
     );
     setFilteredProducts(filtered); //setfilter(1);
   };

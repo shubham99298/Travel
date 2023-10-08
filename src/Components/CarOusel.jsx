@@ -29,6 +29,44 @@ const CarOusel = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <hr/>
+      <h2>Travelling Destinations <img
+        className="imgcontact"
+        src="https://clipart-library.com/images/dT9rb8R8c.png"
+      /></h2>
+     
+    <div className="grids">
+          <div className="item
+          1">
+            <img
+              className="grid-image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg/405px-Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg"
+              alt="image 1"
+            />
+          </div>
+          <div className="item2">
+            <img
+              className="grid-image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Perth_CBD_skyline_from_State_War_Memorial_Lookout%2C_2023%2C_04.jpg/1200px-Perth_CBD_skyline_from_State_War_Memorial_Lookout%2C_2023%2C_04.jpg"
+              alt="image 2"
+            />
+          </div>
+          <div className="item3">
+            <img
+              className="grid-image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Adelaide_skyline%2C_December_2022.jpg/405px-Adelaide_skyline%2C_December_2022.jpg"
+              alt="image 3"
+            />
+          </div>
+          <div className="item4">
+            <img
+              className="grid-image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/432px-Skyscrapers_of_Shinjuku_2009_January.jpg"
+              alt="image 4"
+            />
+          </div>
+        </div>  
+    
     </div>
   )
 }
