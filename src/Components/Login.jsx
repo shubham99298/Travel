@@ -1,5 +1,7 @@
 import React from "react";
 import '../Styles/Login.css'
+import { FaGoogle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className="login">
@@ -8,17 +10,19 @@ const Login = () => {
         <b className="b2">Veller</b>
       </div>
 
-      <h1>Signup Form</h1>
+      <h1>Sign In Form</h1>
 
       <form>
         <div className="signupform">
           <label>UserName:</label>
-          <input type="text" required placeholder="xyz..." />
+          <input type="text" required placeholder="Username" />
 
           <label>Password:</label>
-          <input type="password" required placeholder="1234...." />
-          <button className="button1">signup</button>
-          <button className="button2">Login</button>
+          <input type="password" required placeholder="Password" />
+          <button className="button1">SIGN IN</button>
+          <button className="button2">CONTINUE WITH <FaGoogle/></button>
+          <span>Don't Have a account ?<Link to="/signup">Signup</Link> </span>
+          
         </div>
 
       </form>

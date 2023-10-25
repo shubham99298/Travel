@@ -4,10 +4,12 @@ nav{
     align-items: center;
     height: 50px;
     /* height: 10px; */
-    background-color: white;
+
+    /* background-color:  linear-gradient(180deg,#fdc50f 26.71%,#fb982f 99.36%); */
+    /* background: linear-gradient(180deg,#ffc813 1.71%,#fb982f 99.36%); */
     
     width: 100%;
-    box-shadow: 0 4px 8px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 0px 8px 8px rgba(10, 9, 9, 0.2);
    }
  .left{
     font-size: 1.5rem;
@@ -27,6 +29,7 @@ nav ul li{
     list-style: none;
     margin: 0 23px; 
     margin-top: 10px;
+   
 }
 nav ul li a:hover{
     color: rgb(225, 44, 44);
@@ -34,6 +37,6 @@ nav ul li a:hover{
 }
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color:black;
 
 }

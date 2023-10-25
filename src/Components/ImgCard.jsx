@@ -1,8 +1,12 @@
 // ImgCard.jsx
 import React, { useState, useEffect } from "react";
 import "../Styles/ImgCard.css";
+import { add } from "../store/cartSlics";
+import { useDispatch } from "react-redux";
+import { FaPlane } from "react-icons/fa";
 
 const ImgCards = () => {
+  const dispatch=useDispatch();
   const [products, setProducts] = useState([]);
 
   const [filteredProducts, setFilteredProducts] = useState([]); // data filter k liye
@@ -28,6 +32,11 @@ const ImgCards = () => {
     setFilteredProducts(filtered); //setfilter(1);
   };
 
+  const handleadd = (product) => {
+    console.log("Adding product to cart:", product);
+    dispatch(add(product));
+  }
+  
   return (
     <>
       <div className="search">
@@ -55,7 +64,7 @@ const ImgCards = () => {
       </div>
 
       <div className="imgc">
-        <h2 className="travel">Travel🛩️</h2>
+        <h2 className="travel">Travel <FaPlane/></h2>
         <ul className="ul_list">
           {(searchQuery ? filteredProducts : products).map((product) => (
             <li className="listitem" key={product.id}>
@@ -66,7 +75,8 @@ const ImgCards = () => {
                 alt={product.title}
               />
               <p className="prices">{product.price}</p>
-              <button className="btn0">Book Now 🛩️</button>
+              
+              <button onClick={()=>handleadd(product)} className="btn0">Book Now 🛩️</button>
             </li>
           ))}
         </ul>

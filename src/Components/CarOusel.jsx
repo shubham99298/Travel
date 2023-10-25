@@ -6,33 +6,30 @@ const CarOusel = () => {
     <div className='images'>
         <Carousel>
       <Carousel.Item>
-        <img src='https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60'  alt='hey' text="First slide" />
+        <img src='https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80'  alt='hey' text="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 style={{fontSize:"30px",fontStyle:'oblique'}}>No ,matter where your,re going to we'll take you there</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src='https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80' alt='s' text="Second slide" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3 style={{fontSize:"30px",fontStyle:'oblique'}}>No ,matter where your,re going to we'll take you there</h3>
+
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src='https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80' alt='hey' text="Third slide" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <h3 style={{fontSize:"30px",fontStyle:'oblique'}}>No ,matter where your,re going to we'll take you there</h3>
+
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
     <hr/>
       <h2>Travelling Destinations <img
         className="imgcontact"
-        src="https://clipart-library.com/images/dT9rb8R8c.png"
+        src="https://svgsilh.com/svg/147495.svg"
       /></h2>
      
     <div className="grids">

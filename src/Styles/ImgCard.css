@@ -6,23 +6,25 @@
     list-style: none;
   
 }
+
+   
 h2{
     text-align: center;
     padding: 10px;
 }
 .ul_list .listitem{
     box-shadow: 0 4px 8px 0px rgba(0,0,0,0.2);
-    /* border-radius: 30px; */
-    padding: 50px;
-    margin-left: 70px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
     width: 40%;
-    height: 500px;
+    height: 450px;
   
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
  .btn0,.btn0{
     color: white;
-    background-color: rgba(69, 47, 6, 0.855);
+    background-color: rgba(185, 10, 10, 0.922);
     padding: 10px;
  
     border-radius: 15px;
@@ -83,6 +85,9 @@ label{
       min-width:100%;
      margin-left: -5px;
    
+  }
+  .btn0{
+   padding: 3px;
   }
   .box .btn{
   margin-top: 10px;

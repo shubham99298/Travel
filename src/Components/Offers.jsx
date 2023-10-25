@@ -9,8 +9,17 @@ const Offers = () => {
           <div class="tag">special Offers</div>
           <h3>Special Offers</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptates, iste corporis tempore necessitatibus inventore ex?
+            🌴 <b>Beach Gateway</b>: Unwind on pristine sandy shores with our
+            beach getaway offers. Enjoy special discounts on beachfront resorts,
+            complimentary water sports activities, and more. Your ultimate
+            seaside escape awaits!
+          </p>
+
+          <p>
+            ✈️ <b>city Exploration:</b>
+            Explore the world's most captivating cities with our city
+            exploration offers. Uncover hidden gems, enjoy discounts on guided
+            tours, and stay in the heart of the action at unbeatable prices
           </p>
           <button class="explore_btn">Explore Now</button>
         </div>
