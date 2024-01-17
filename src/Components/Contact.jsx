@@ -6,7 +6,7 @@ import { FaMailBulk } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="contact" style={{ width: "100%", height: "100vh" }}>
-      <img className="imgcontact" src="https://svgsilh.com/svg/147495.svg" />
+      <img className="imgcontact" src="https://svgsilh.com/svg/147495.svg" alt="imagehere" />
       <h2>Contact us</h2>
       <p>
         {" "}

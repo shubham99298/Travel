@@ -29,28 +29,28 @@ const Offers = () => {
             <img
               className="grid-image"
               src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
-              alt="image 1"
+              alt="image1"
             />
           </div>
           <div className="item2">
             <img
               className="grid-image"
               src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
-              alt="image 2"
+              alt="image2"
             />
           </div>
           <div className="item3">
             <img
               className="grid-image"
               src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
-              alt="image 3"
+              alt="image3"
             />
           </div>
           <div className="item4">
             <img
               className="grid-image"
               src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
-              alt="image 4"
+              alt="image4"
             />
           </div>
         </div>
