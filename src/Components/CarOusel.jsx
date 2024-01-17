@@ -1,6 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import '../Styles/CarOusel.css'
+import Footer from './Footer';
+
 const CarOusel = () => {
   return (
     <div className='images'>
@@ -63,6 +65,7 @@ const CarOusel = () => {
             />
           </div>
         </div>  
+        <Footer/>
     
     </div>
   )

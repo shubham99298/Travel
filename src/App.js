@@ -5,7 +5,6 @@ import CarOusel from "./Components/CarOusel";
 
 import ImgCard from "./Components/ImgCard";
 import Offers from "./Components/Offers";
-import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Contact from "./Components/Contact";
 
@@ -34,7 +33,7 @@ function App() {
 
         </Routes>
 
-        <Footer />
+      
       </Router>
     </Provider>
   );

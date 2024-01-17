@@ -52,7 +52,22 @@
       "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Perth_CBD_skyline_from_State_War_Memorial_Lookout%2C_2023%2C_04.jpg/1200px-Perth_CBD_skyline_from_State_War_Memorial_Lookout%2C_2023%2C_04.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
       "price": "$6,999"
-    }
+    },
    
+    {
+      "id": 9,
+      "title": "Stockholm",
+      "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5T9g2VrpMnOrKGwfdSIfHUx3Sf6mS0NR9iRWM4xBJbyKeG7opIwMuPJ1NnA&s=8",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$6,999"
+    }
+   ,
+    {
+      "id": 10,
+      "title": "Germany",
+      "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRufKUNwkFVtcA15EM_T2YF0b5xB0pT8QYbM-6lkQWh4mhfYsF3rgDTt6ZpNfVq6Znka8Y&usqp=CAU",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit for Product 3.",
+      "price": "$6,999"
+    }
   ]
   

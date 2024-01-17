@@ -21,7 +21,7 @@ const Login = () => {
           <input type="password" required placeholder="Password" />
           <button className="button1">SIGN IN</button>
           <button className="button2">CONTINUE WITH <FaGoogle/></button>
-          <span>Don't Have a account ?<Link to="/signup">Signup</Link> </span>
+          <span>Don't Have a account ?<Link to="/signup" style={{color:"grey"}}>Signup</Link> </span>
           
         </div>
 

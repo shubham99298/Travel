@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaGoogle } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const Siignup = () => {
   return (
@@ -22,9 +24,10 @@ const Siignup = () => {
 
         <label>Password:</label>
         <input type="password" required placeholder="Password" />
-        <button className="button1">SIGN IN</button>
+        <button className="button1">SIGN UP</button>
         <button className="button2">CONTINUE WITH <FaGoogle/></button>
-        
+        <span >Already have an Account?<Link to="/login" style={{color:"grey"}}>SignIn</Link> </span>
+
       </div>
 
     </form>
