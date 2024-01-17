@@ -32,6 +32,7 @@ const CarOusel = () => {
       <h2>Travelling Destinations <img
         className="imgcontact"
         src="https://svgsilh.com/svg/147495.svg"
+        alt='hey'
       /></h2>
      
     <div className="grids">
